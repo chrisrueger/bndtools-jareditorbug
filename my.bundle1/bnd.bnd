@@ -1,0 +1,9 @@
+-buildpath:  \
+	osgi.annotation, \
+	org.osgi.service.component.annotations
+	
+
+
+-privatepackage: my.bundle1.impl
+Export-Package: my.bundle1.api
+-sub: *.bnd
